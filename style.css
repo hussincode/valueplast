@@ -43,7 +43,7 @@ nav a{
     border: none;
     color: black;
     margin: 5px;
-    transition: .5s;
+    transition: .nbbbbm,.,,kjl;hswas;
     position: relative;
 }
 
@@ -234,7 +234,7 @@ section{
   }
 .contact{
     background-color: transparent;
-    padding: 5px 90px;
+    
 }
 .contact #contact{
     position: relative;
@@ -245,23 +245,38 @@ section{
     position: relative;
     top: 100px;
     right: 100px;
-      padding: 0px 50px 0px 0px;
+    padding: 0px 50px 0px 0px;
   }
+.object{
+    width: 1630px;
+    background-color: #D9D9D9;
+    position: relative;
+    top: 1000px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 0px 20px 0px;
+    border: 1px solid #ff44008c ;
+    border-bottom-width: 0px;
+    
+}
+.object img{
+    width: 50px;
+}
+.links{
+    border: none;
+    text-decoration: none;
+    color: #ff4400;
+    font-size: 30px;
+    position: relative;
+    right: 100px;
+    
+}
+
   
   @media  (max-width: 480px){
     
-    @keyframes appear{
-        from{
-            opacity: 0;
-            transform: translateX(-100px);
-    
-        }
-        to{
-            opacity: 1;
-            transform: translateX(0px);
-    
-        }
-    }
     
     header{
         background-color: #D9D9D9;
@@ -274,15 +289,14 @@ section{
         z-index: 100;
         top: 0;
         left: 0;
-        width: 450px;
+        width: 380px;
         border: 1px solid #ff44008c ;
         border-top-width: 0px;
     }
     
     header img{
-        width: 30px;
+        width: 20px;
         position: relative;
-        left: 30px;
     }
     
     nav a{
@@ -317,21 +331,23 @@ section{
     .home{
     
         background-color: transparent;
-        padding: 5px 90px;
+        padding: 5px 50px;
+
     }
     
     .home-img img{
         width: 300px;
         position: relative;
         top: 100px;
-        border-radius: 10px;                
+        border-radius: 10px; 
+                     
     }
     
     .path img{
         
         width: 300px;
         position: absolute;
-        left: 100px;
+        left: 50px;
         top: 500px;
         opacity: 57%;
     }
@@ -447,6 +463,8 @@ section{
         background-color: #D9D9D9 ;
         width: 300px;
         border-radius: 10px;
+        position: relative;
+        right: 50px;
         
     
     }
@@ -485,38 +503,64 @@ section{
         background-color: transparent;
         padding: 5px 90px;
         position: relative; 
-        top: 400px;
+        top: 300px;
     }
     .about #aboutus{
         position: absolute;
         top: 900px;
     }
     .about h1{
-        font-size: 40px;
+        font-size: 20px;
         position: relative;
         top: 100px;
         right: 90px;
         padding: 10px 50px 20px 30px;
         display: flex;
         background-color: #D9D9D9;
-        width: 390px;
+        width: 250px;
         border-radius: 0px 30px 30px 30px;
         border: 2px solid rgba(255, 68, 0, 0.548) ;
         
       }
-    .contact{
+      .contact{
         background-color: transparent;
-        padding: 5px 90px;
+        
     }
     .contact #contact{
         position: relative;
-        top: 900px;
+        top: 500px;
     }
     .contact h1{
         font-size: 100px;
         position: relative;
         top: 100px;
         right: 100px;
-          padding: 0px 50px 0px 0px;
+        padding: 0px 50px 0px 0px;
       }
+    .object{
+        width: 370px;
+        background-color: #D9D9D9;
+        position: relative;
+        top: 500px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px 20px 0px 0px;
+        border: 1px solid #ff44008c ;
+        border-bottom-width: 0px;
+        
+    }
+    .object img{
+        width: 20px;
+    }
+    .links{
+        border: none;
+        text-decoration: none;
+        color: #ff4400;
+        font-size: 10px;
+        position: relative;
+        right: 50px;
+        
+    }
   }
